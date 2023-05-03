@@ -6,6 +6,7 @@
 /* Root Section */
 :root {
     /* Color Scheme */
+    --nav-bar-bg: #2c3e50;
     --jumbotron-bg: #1abc9c;
 
     /* Portfolio Cards */
@@ -22,6 +23,10 @@
 /* ---- CSS Begin ---- */
 
 /* Header Section */
+.nav-bar {
+    background-color: var(--nav-bar-bg);
+    height: 100px;
+}
 .jumbotron {
     background-color: var(--jumbotron-bg);
     height: 600px;
@@ -43,3 +48,6 @@
 }
 
 /* Contact-Me Section */
+.contact-me {
+    height: 600px;
+}
