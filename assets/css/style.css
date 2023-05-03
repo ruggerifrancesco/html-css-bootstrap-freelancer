@@ -1,1 +1,22 @@
 /* <!-- Rule: Mobile First --> */
+* {
+    outline: 1px solid red;
+}
+
+/* Root Section */
+:root {
+    /* Color Scheme */
+    --jumbotron-bg: #1abc9c;
+}
+
+/* ---- CSS Begin ---- */
+
+/* Header Section */
+.jumbotron {
+    background-color: var(--jumbotron-bg);
+    height: 600px;
+}
+
+/* -- Main Content -- */
+
+/* Portfolio Section */
