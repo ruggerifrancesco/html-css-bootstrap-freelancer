@@ -18,6 +18,10 @@
     --card-6: #ccb2a3;
 
     /* About-Us Section */
+
+    /* Footer Section */
+    --footer-top-bg: #3a546d;
+    --footer-bttm-bg: #2c3e50;
 }
 
 /* ---- CSS Begin ---- */
@@ -50,4 +54,15 @@
 /* Contact-Me Section */
 .contact-me {
     height: 600px;
+}
+
+/* Footer Section */
+.footer-top {
+    background-color: var(--footer-top-bg);
+    height: 600px;
+}
+
+.footer-bttm {
+    background-color: var(--footer-bttm-bg);
+    height: 200px;
 }
