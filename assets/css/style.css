@@ -7,6 +7,15 @@
 :root {
     /* Color Scheme */
     --jumbotron-bg: #1abc9c;
+
+    /* Portfolio Cards */
+    --card-1: #ba4b63;
+    --card-2: #1ea4b6;
+    --card-3: #140f0f;
+    --card-4: #1c83c1;
+    --card-5: #0e38b5;
+    --card-6: #ccb2a3;
+
 }
 
 /* ---- CSS Begin ---- */
@@ -21,5 +30,8 @@
 
 /* Portfolio Section */
 .portfolio {
-    height: 1600px;
+}
+
+.me-portfolio-card {
+    background-color: var(--jumbotron-bg);
 }
