@@ -1,6 +1,6 @@
 /* <!-- Rule: Mobile First --> */
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 /* Root Section */
@@ -34,6 +34,11 @@
 .jumbotron {
     background-color: var(--jumbotron-bg);
 }
+    .jumbot-title {
+        color: white;
+        font-size: 3rem;
+        font-weight: 600;
+    }
 
 /* -- Main Content -- */
 
@@ -41,8 +46,6 @@
 .portfolio {
 }
 
-.me-portfolio-card {
-}
 
 /* About-Us Section */
 .about-us {
