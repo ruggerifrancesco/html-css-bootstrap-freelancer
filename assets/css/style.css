@@ -33,7 +33,6 @@
 }
 .jumbotron {
     background-color: var(--jumbotron-bg);
-    height: 600px;
 }
 
 /* -- Main Content -- */
