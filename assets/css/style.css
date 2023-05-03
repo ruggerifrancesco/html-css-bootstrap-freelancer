@@ -23,6 +23,13 @@
 }
 
 /* ---- CSS Begin ---- */
+.star-divider > i {
+    font-size: 2rem;
+}
+    .me-star-line {
+        width: 12%;
+        height: 5px;
+    }
 
 /* Header Section */
 .nav-bar {
@@ -46,9 +53,10 @@
         color: #333333;
         font-weight: 600;
     }
-    .star-line {
-        width: 15%;
-        height: 5px;
+    .me-star-color-portfolio {
+        color: #333333;
+    }
+    .me-star-line-portfolio {
         background-color: #333333;
     }
 
