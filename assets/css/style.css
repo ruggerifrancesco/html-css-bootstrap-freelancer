@@ -16,6 +16,7 @@
     --card-5: #0e38b5;
     --card-6: #ccb2a3;
 
+    /* About-Us Section */
 }
 
 /* ---- CSS Begin ---- */
@@ -33,5 +34,12 @@
 }
 
 .me-portfolio-card {
-    background-color: var(--jumbotron-bg);
 }
+
+/* About-Us Section */
+.about-us {
+    background-color: var(--jumbotron-bg);
+    height: 600px;
+}
+
+/* Contact-Me Section */
