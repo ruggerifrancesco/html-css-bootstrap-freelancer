@@ -143,8 +143,19 @@ body {
     padding: 0 5rem;
 }
     .form-control {
-      color: var(--card-5);  
+      color: #2c3e50;  
     }
+        /* Input Placeholder Color */
+        .form-control::placeholder {
+            color: #2c3e50;
+            opacity: 1; /* Firefox */
+        }
+        .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: #2c3e50;
+        }
+        .form-control::-ms-input-placeholder { /* Microsoft Edge */
+            color: #2c3e50;
+           }
     .me-contact-send-btn {
         background-color: #1abc9c;
         border-color: #1abc9c;
