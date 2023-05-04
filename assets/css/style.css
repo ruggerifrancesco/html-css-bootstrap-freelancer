@@ -1,6 +1,6 @@
 /* <!-- Rule: Mobile First --> */
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 /* Root Section */
@@ -116,12 +116,13 @@ body {
         font-weight: 600;
     }
     .me-about-paragraph {
-        font-size: 1.5rem;
     }
 
     @media screen and (min-width:768px){
+        .me-about-us-row {
+            padding: 0 4.5rem;
+        }
         .me-about-paragraph {
-            font-size: 1.2rem;
         }
         .about-us-title {
             font-size: 2.6rem;
@@ -129,7 +130,6 @@ body {
     }
     @media screen and (min-width:992px){
         .me-about-paragraph {
-            font-size: 1.5rem;
         }
         .me-about-us-row {
             padding: 0 7rem;
