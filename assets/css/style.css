@@ -1,6 +1,6 @@
 /* <!-- Rule: Mobile First --> */
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 /* Root Section */
@@ -136,9 +136,21 @@ body {
     }
 
 /* Contact-Me Section */
-    .me-contact-row {
-        padding: 0 5rem;
+.me-contact-row {
+    padding: 0 5rem;
+}
+    .form-control {
+      color: var(--card-5);  
     }
+    .me-contact-send-btn {
+        background-color: #1abc9c;
+        border-color: #1abc9c;
+    }
+        .me-contact-send-btn:hover {
+            background-color: #0cdfb4;
+            border-color: #1abc9c;
+        }
+
     @media screen and (min-width:768px){
         .me-contact-row {
             padding: 0 4.5rem;
