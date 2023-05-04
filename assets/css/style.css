@@ -41,6 +41,9 @@ body {
 .me-nav-bg {
     background-color: var(--nav-bar-bg);
 }
+    .navbar-brand {
+        font-weight: 600;
+    }
 .jumbotron {
     background-color: var(--jumbotron-bg);
 }
