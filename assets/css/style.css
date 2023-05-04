@@ -1,6 +1,6 @@
 /* <!-- Rule: Mobile First --> */
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 /* Root Section */
@@ -41,9 +41,15 @@ body {
 .me-nav-bg {
     background-color: var(--nav-bar-bg);
 }
+    .navbar {
+        padding: 1.5rem 0;
+    }
     .navbar-brand {
         font-weight: 600;
         letter-spacing: 0.1rem;
+    }
+    .nav-link {
+        font-weight: 600;  
     }
 .jumbotron {
     background-color: var(--jumbotron-bg);
