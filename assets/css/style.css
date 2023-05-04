@@ -34,7 +34,7 @@ body {
 }
     .me-star-line {
         width: 15%;
-        height: 3px;
+        height: 4px;
     }
 
 /* Header Section */
@@ -51,6 +51,7 @@ body {
     .nav-link {
         font-weight: 600;  
     }
+
 .jumbotron {
     background-color: var(--jumbotron-bg);
 }
@@ -64,9 +65,17 @@ body {
     .me-star-line-jumb {
         background-color: white;
     }
+    .me-jumbot-paragraph {
+        font-weight: 500; 
+        letter-spacing: 0.05rem;
+    }
     @media screen and (min-width:768px) {
         .jumbot-title {
             font-size: 3rem;
+        }
+        .me-jumbot-paragraph {
+            font-weight: 500; 
+            font-size: 1.2rem;
         }
     }
 
