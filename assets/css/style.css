@@ -38,9 +38,8 @@ body {
     }
 
 /* Header Section */
-.nav-bar {
+.me-nav-bg {
     background-color: var(--nav-bar-bg);
-    height: 100px;
 }
 .jumbotron {
     background-color: var(--jumbotron-bg);
