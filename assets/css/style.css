@@ -25,12 +25,16 @@
 }
 
 /* ---- CSS Begin ---- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .star-divider > i {
     font-size: 2rem;
 }
     .me-star-line {
-        width: 12%;
-        height: 5px;
+        width: 15%;
+        height: 3px;
     }
 
 /* Header Section */
