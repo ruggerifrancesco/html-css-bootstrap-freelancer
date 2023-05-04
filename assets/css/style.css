@@ -1,6 +1,6 @@
 /* <!-- Rule: Mobile First --> */
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 /* Root Section */
@@ -191,12 +191,14 @@ body {
 /* Footer Section */
 .footer-top {
     background-color: var(--footer-top-bg);
-    height: 600px;
 }
     .me-social-btn {
         width: 50px;
         height: 50px;
         font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
         .me-social-btn:hover {
             color: var(--footer-top-bg);
@@ -204,5 +206,5 @@ body {
 
 .footer-bttm {
     background-color: var(--footer-bttm-bg);
-    height: 200px;
+    
 }
