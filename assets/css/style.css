@@ -195,6 +195,7 @@ body {
     .me-social-btn {
         width: 50px;
         height: 50px;
+        border-radius: 50%;
         font-size: 1.3rem;
         display: flex;
         justify-content: center;
@@ -203,8 +204,22 @@ body {
         .me-social-btn:hover {
             color: var(--footer-top-bg);
         }
+    .me-link-footer {
+        color: var(--jumbotron-bg);
+        text-decoration: none;
+    }
+        .me-link-footer:hover {
+            color: #0cdfb4;;
+        }
+    @media screen and (min-width:768px) {
+        .me-footer-paragraph {
+            font-size: 1.1rem;
+        }
+        .me-footer-title {
+            font-size: 1.5rem;
+        }
+    }
 
 .footer-bttm {
     background-color: var(--footer-bttm-bg);
-    
 }
