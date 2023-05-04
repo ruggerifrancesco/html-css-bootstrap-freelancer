@@ -1,6 +1,6 @@
 /* <!-- Rule: Mobile First --> */
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 /* Root Section */
@@ -120,9 +120,12 @@ body {
         color: #333333;
         font-weight: 600;
     }
-    .me-dowload-btn {
+    .me-dowload-btn-ml {
         margin-right: 0.5rem;
     }
+        .me-dowload-btn:hover {
+            color: var(--jumbotron-bg);
+        }
 
     @media screen and (min-width:768px){
         .me-about-us-row {
@@ -190,6 +193,14 @@ body {
     background-color: var(--footer-top-bg);
     height: 600px;
 }
+    .me-social-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 1.3rem;
+    }
+        .me-social-btn:hover {
+            color: var(--footer-top-bg);
+        }
 
 .footer-bttm {
     background-color: var(--footer-bttm-bg);
