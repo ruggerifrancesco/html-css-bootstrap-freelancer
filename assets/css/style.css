@@ -1,5 +1,7 @@
 /* <!-- Rule: Mobile First --> */
-
+* {
+    outline: 1px solid red;
+}
 
 /* Root Section */
 :root {
@@ -97,6 +99,9 @@
     @media screen and (min-width:992px){
         .me-about-paragraph {
             font-size: 1.5rem;
+        }
+        .me-about-us-row {
+            padding: 0 7rem;
         }
     }
 
