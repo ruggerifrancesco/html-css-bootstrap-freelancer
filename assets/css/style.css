@@ -1,6 +1,6 @@
 /* <!-- Rule: Mobile First --> */
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 /* Root Section */
@@ -45,10 +45,12 @@ body {
     .me-star-line-about {
         background-color: white;
     }
-    .me-star-color-portfolio {
+    .me-star-color-portfolio,
+    .me-star-color-contact {
         color: #2c3e50;
     }
-    .me-star-line-portfolio {
+    .me-star-line-portfolio,
+    .me-star-line-contact {
         background-color: #2c3e50;
     }
 
@@ -123,24 +125,33 @@ body {
         .me-about-us-row {
             padding: 0 4.5rem;
         }
-        .me-about-paragraph {
-        }
         .about-us-title {
             font-size: 2.6rem;
         }
     }
     @media screen and (min-width:992px){
-        .me-about-paragraph {
-        }
         .me-about-us-row {
             padding: 0 7rem;
         }
     }
 
 /* Contact-Me Section */
-.contact-me {
-    height: 600px;
-}
+    .me-contact-row {
+        padding: 0 5rem;
+    }
+    @media screen and (min-width:768px){
+        .me-contact-row {
+            padding: 0 4.5rem;
+        }
+        .about-us-title {
+            font-size: 2.6rem;
+        }
+    }
+    @media screen and (min-width:992px){
+        .me-contact-row{
+            padding: 0 7rem;
+        }
+    }
 
 /* Footer Section */
 .footer-top {
