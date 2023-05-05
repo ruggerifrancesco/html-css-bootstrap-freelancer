@@ -178,9 +178,11 @@ body {
         }
         .me-about-paragraph-left {
             margin-right: 0.6rem;
+            font-size: 1.1rem;
         }
         .me-about-paragraph-right {
             margin-left: 0.6rem;
+            font-size: 1.1rem;
         }
     }
     @media screen and (min-width:992px){
